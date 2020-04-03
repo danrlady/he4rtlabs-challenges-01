@@ -1,15 +1,76 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Calculadora de Freela - He4rtDevs</title>
-    <link rel="stylesheet" href="./main.css" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="./main.css">
+
+    <title>He4rtDevs - Calculadora de Freelance</title>
   </head>
   <body>
-    <div>
-      <h1>Olá mundo.</h1>
-    </div>
+      <header>Logo He4rtDevs</header>
+
+      <section id="inicio">
+        <div class="container col-10">
+          <div class="row  align-items-center">
+            <div class="col col-4">
+              imagem
+            </div>
+            <div class="col">
+              <div class="row justify-content-center">
+                <h1 class="col initlt">calculadora de freela</div>
+                <div class="w-100"></div>
+                <div class="col inidsc">o projeto tem a finalidade de descrever alguns fatores determinantes para você saber o seu valor da sua hora em um freelance</div>
+                <div class="w-100"></div>
+                <div class="col">
+                  <button class="btn btn-outline-light" id="conferir">Conferir</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+      </section>
+
+      <section id="calculadora">
+        <div class="container col-auto">
+        <div class="row justify-content-center" id="valorHora"></div>
+          <div class="row">
+            <div class="col-2 ml-auto mr-auto card">
+              <div class="paramtlt">horas diárias</div>
+              <div class="paramdsc">quantas horas por dia você usará efetivamente para trabalhar no seu projeto freelance?</div>
+              <input type="text" id="horasDiarias">
+            </div>
+            <div class="col-2 mr-auto card">
+              <div class="paramtlt">dias efetivos</div>
+              <div class="paramdsc">estime quantos dias levará para concluir todo o projeto. leve em conta não apenas o tempo de desenvolvimento, mas também o tempo de negociação com o cliente</div>
+              <input type="text" id="diasEfetivos">
+            </div>
+            <!-- <div class="w-100"></div> -->
+            <div class="col-2 mr-auto card">
+              <div class="paramtlt">dias de férias</div>
+              <div class="paramdsc">qualquer modalidade de trabalho, seja CLT ou PJ, há seus encargos referentes à verba de férias e não seria diferente para lidar com um freela</div>
+              <input type="text" id="diasFerias">
+            </div>
+            <div class="col-2 mr-auto card">
+              <div class="paramtlt">valor do projeto</div>
+              <div class="paramdsc">quanto você deseja receber pelo trabalho como freelance?</div>
+              <input type="text" id="valorProjeto">
+            </div>
+            <div class="w-100"></div>
+            <div class="col">
+              <button class="btn btn-outline-light" id="calcular">Calcular</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer>Desenvolvido por Danrley Tavares</footer>
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <script src="./main.js"></script>
   </body>
 </html>

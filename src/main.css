@@ -1,0 +1,98 @@
+/* .container, .row, .col {
+    border: solid 1px;
+} */
+
+header {
+    margin-bottom: auto;
+    height: 15%;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+html,body {
+    height: 100%;
+    color: white;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: blueviolet;
+}
+
+footer {
+    margin-top: auto;
+    height: 5%;
+    color: white;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inicio {
+    align-content: center;
+}
+
+button { 
+    margin: 20px;
+}
+
+button:hover { color: blueviolet; }
+
+#valorHora { 
+    font-size: 50px;
+    font-weight: bold;
+    height: 50px;
+    margin-bottom: 50px;
+ }
+
+ input {
+     border-radius: 40px;
+     border: solid 1px blueviolet;
+     color: blueviolet;
+     background-color: white;
+     margin-top: auto;
+     margin-bottom: 10px;
+     text-align: center;
+ }
+
+ input:focus {
+    border: blueviolet solid 1px;
+    outline: none;
+ }
+
+ h1 {
+     font-size: 100px;
+     font-weight: 600;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .inidsc {
+     font-size: 25px;
+     text-align: left;
+     line-height: 1em;
+ }
+
+ /* #botao {
+     justify-content: left;
+ } */
+
+ .paramtlt {
+     font-size: 30px;
+     font-weight: bold;
+     color: rgb(48, 2, 70);
+ }
+
+ .paramdsc {
+     color: black;
+ }
+
+ .card {
+     background-color: white;
+     border-radius: 20px;
+ }
