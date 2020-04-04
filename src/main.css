@@ -1,7 +1,4 @@
-/* .container, .row, .col {
-    border: solid 1px;
-} */
-
+/* Estrutural */
 header {
     margin-bottom: auto;
     height: 15%;
@@ -22,6 +19,8 @@ body {
     flex-direction: column;
     text-align: center;
     background-color: blueviolet;
+    
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 footer {
@@ -32,67 +31,162 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 15px;
+    letter-spacing: 2px;
 }
 
 .inicio {
     align-content: center;
 }
 
-button { 
-    margin: 20px;
+.card {
+     background-color: white;
+     border-radius: 15px;
+     padding: 5px;
+}
+ 
+.cardrow {
+    height: 250px;
 }
 
-button:hover { color: blueviolet; }
+.botrow {
+    margin-top: 30px;
+}
+
+#budget {
+    margin-top: -80px;
+}
+
+/* Botões */
+button { 
+    padding: 10px 27px;
+    background-color: blueviolet;
+    color: white;
+    border: white solid 3px;
+    border-radius: 40px;
+    text-align: center;
+    font-weight: bold;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+    
+}
+button:focus{
+    outline-color: blueviolet;
+    color: blueviolet;
+    background-color: white;
+}
+
+button:hover { 
+    color: blueviolet;
+    background-color: white;
+}
+
+#conferir {
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+#calcular {
+    margin-top: 50px;
+}
+
+/* Inputs */
+input {
+    border-radius: 40px;
+    border: solid 2px blueviolet;
+    color: blueviolet;
+    font-weight: bold;
+    background-color: white;
+    margin-top: auto;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+}
+
+input:focus {
+    border: blueviolet solid 2px;
+    outline-style: inherit;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+::placeholder {
+    color: blueviolet;
+    opacity: 1;
+}
+
+.makeRed {
+      border: crimson 1px solid !important;
+      color: crimson;
+}
+
+.makeRed::placeholder { 
+    color: crimson;
+    opacity: 1;
+}
+
+/* Texto */
+h1 {
+    font-size: 100px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 6px 6px 0px black;
+}
+
+h2 {
+    font-size: 25px;
+    text-align: left;
+    line-height: 1em;
+    text-shadow: 2px 2px 0px black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    margin-left: 40px;
+    margin-top: -15px;
+}
+
+.paramtlt {
+    font-size: 25px;
+    font-weight: bold;
+    color: blueviolet;
+}
+
+.paramdsc {
+    color: black;
+    font-size: 15px;
+}
 
 #valorHora { 
+    height: 100px;
     font-size: 50px;
     font-weight: bold;
-    height: 50px;
-    margin-bottom: 50px;
- }
+    line-height: 100%;
+    text-shadow: 6px 6px 0px black;
+}
 
- input {
-     border-radius: 40px;
-     border: solid 1px blueviolet;
-     color: blueviolet;
-     background-color: white;
-     margin-top: auto;
-     margin-bottom: 10px;
-     text-align: center;
- }
+a {
+    font-weight: bold;
+    color: blueviolet;
+}
 
- input:focus {
-    border: blueviolet solid 1px;
-    outline: none;
- }
+a:hover {
+    color: rgb(173, 95, 247);
+    text-decoration: none;
+}
 
- h1 {
-     font-size: 100px;
-     font-weight: 600;
-     font-family: Arial, Helvetica, sans-serif;
- }
+a:focus {
+    outline-style: inherit;
+}
 
- .inidsc {
-     font-size: 25px;
-     text-align: left;
-     line-height: 1em;
- }
-
- /* #botao {
-     justify-content: left;
- } */
-
- .paramtlt {
-     font-size: 30px;
-     font-weight: bold;
-     color: rgb(48, 2, 70);
- }
-
- .paramdsc {
-     color: black;
- }
-
- .card {
-     background-color: white;
-     border-radius: 20px;
- }
+#he4rt {
+    color: rgb(198, 138, 255);
+}
